@@ -25,7 +25,7 @@ export function Login() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex">
-      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-blue-600 via-blue-700 to-cyan-600 relative overflow-hidden">
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-green-600 via-green-700 to-emerald-600 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '32px 32px' }} />
         <div className="relative z-10 flex flex-col justify-center px-12 xl:px-20">
           <div className="flex items-center gap-3 mb-8">
@@ -34,13 +34,13 @@ export function Login() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-white">Construction Manager</h1>
-              <p className="text-blue-200 text-sm">Project Management</p>
+              <p className="text-green-200 text-sm">Project Management</p>
             </div>
           </div>
           <h2 className="text-4xl xl:text-5xl font-bold text-white mb-6 leading-tight">
             Manage your construction projects with ease
           </h2>
-          <p className="text-lg text-blue-100/90 mb-8 max-w-md">
+          <p className="text-lg text-green-100/90 mb-8 max-w-md">
             Track tasks, monitor progress, and stay on budget with our comprehensive project management solution.
           </p>
           <div className="space-y-4">
@@ -70,8 +70,8 @@ export function Login() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-cyan-400/20 to-transparent rounded-full blur-3xl" />
-        <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-blue-400/20 to-transparent rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-emerald-400/20 to-transparent rounded-full blur-3xl" />
+        <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-green-400/20 to-transparent rounded-full blur-3xl" />
       </div>
 
       <div className="flex-1 flex flex-col justify-center px-6 py-12 lg:px-12 xl:px-20">
